@@ -16,17 +16,19 @@
 
     <header>
 
-        <h1>Moda Ora</h1>
-        <span id="burguer" class="material-symbols-outlined" onclick="escondeMenu()">
-            menu
-        </span>
-        <nav id="itens">
-            <ul>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">sobre nós</a></li>
-                <li><a href="#">contato</a></li>
-            </ul>
-        </nav>
+        <div class="header-menu">
+            <h1>Moda Ora</h1>
+            <span id="burguer" class="material-symbols-outlined" onclick="escondeMenu()">
+                menu
+            </span>
+            <nav id="itens">
+                <ul>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">sobre nós</a></li>
+                    <li><a href="#">contato</a></li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
 
@@ -91,13 +93,13 @@
            }
         }
 
-        //  function mudaTamanho(){
-        //      if(window.innerWidth >= 890){
-        //          itens.style.display = 'block'
-        //      }   else {
-        //          itens.style.display = 'none'
-        //      }
-        //  }
+        function mudaTamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }   else {
+                itens.style.display = 'none'
+            }
+        }
 
     </script>
 

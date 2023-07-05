@@ -33,3 +33,81 @@
     text-decoration: underline;
    }
 }
+
+@media screen and (min-width: 992px) {
+        /* Grandes Telas */
+
+        header h1{
+            padding: 0;
+        }
+
+        header{
+            background-image: url(../imagens/topo.jpg);
+            width: 100%;
+            height: 610px;
+            background-repeat: no-repeat;
+            background-size: cover  ;
+            background-position: center right;
+            background-attachment: fixed;
+        }
+
+        div.header-menu{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            background-color: #162028;
+        }
+
+        nav{
+            display: flex;
+            align-self: center ;
+        }
+
+        span#burguer{
+            display: none;
+        }
+        
+        nav li{
+            display: inline;
+            padding: 15px;
+        }
+
+        nav a{
+            display: inline;
+            border: none;
+            color: #6c7a87;
+        }
+
+        nav a:hover{
+            background-color: transparent;
+            color: white;
+            transition-duration: .3s;
+        }
+        
+       article{
+            width: 80%;
+            margin: auto;
+        }
+
+
+        .artigo-1 h2{
+            font-size: 40px;
+        }
+
+        .artigo-1 p{
+            font-size: 18px;
+            line-height: 1.9;   
+        }
+
+        div.card-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .artigo-3{
+            
+            width: 90%;
+            height: 400px;
+        }
+}
