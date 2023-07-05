@@ -12,7 +12,7 @@
     <title>Moda Ora</title>
 </head>
 
-<body>
+<body onresize="mudaTamanho()">
 
     <header>
 
@@ -20,11 +20,11 @@
         <span id="burguer" class="material-symbols-outlined" onclick="escondeMenu()">
             menu
         </span>
-        <nav>
-            <ul id="itens">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Contato</a></li>
+        <nav id="itens">
+            <ul>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">sobre nós</a></li>
+                <li><a href="#">contato</a></li>
             </ul>
         </nav>
 
@@ -82,6 +82,7 @@
 
 
     <script>
+        
         function escondeMenu(){
            if(itens.style.display == 'block'){
             itens.style.display = 'none'
@@ -89,6 +90,15 @@
             itens.style.display = 'block'
            }
         }
+
+        //  function mudaTamanho(){
+        //      if(window.innerWidth >= 890){
+        //          itens.style.display = 'block'
+        //      }   else {
+        //          itens.style.display = 'none'
+        //      }
+        //  }
+
     </script>
 
 </body>

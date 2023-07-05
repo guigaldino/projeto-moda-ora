@@ -19,7 +19,7 @@
 }
 
 ::-webkit-scrollbar {
-    /* display: none; */
+    display: none;
 }
 
 body {
@@ -46,7 +46,6 @@ header h1 {
 
 nav ul {
     list-style-type: none;
-    display: block;
 }
 
 nav a {
@@ -126,6 +125,7 @@ article {
 
 .artigo-3{
     width: 100%;
+    overflow-x: hidden;
     background-color: #013142;
     background-image: url(../imagens/bg_detalhe.png);
     background-size: cover;

@@ -1,1 +1,35 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    /* TABLET */
+
+    header h1{
+        font-size: 46px;
+    }
+
+    span#burguer{
+        display: none;
+    }
+
+    nav ul{
+        padding: 25px;
+    }
+
+    nav li{
+        display: inline;
+        padding: 18px;
+    }
+
+   nav a{
+    display: inline;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+   }
+
+   nav a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+   }
+}
