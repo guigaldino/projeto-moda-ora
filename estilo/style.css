@@ -85,6 +85,7 @@ article {
     padding: 24px;
     font-weight: 550;
     text-align: center;
+    text-shadow: 3px 2px 15px rgba(0, 0, 0, 0.413);
 }
 
 .artigo-1 p{
