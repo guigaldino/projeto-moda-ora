@@ -1,113 +1,133 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+
     /* TABLET */
 
-    header h1{
+    :root{
+        --cor-nav: #162028;
+        --cor-texto-menu: #425564;
+        --cor-texto: #555;
+    }
+
+    header h1 {
         font-size: 46px;
     }
 
-    span#burguer{
+    span#burguer {
         display: none;
     }
 
-    nav ul{
+    nav ul {
         padding: 25px;
     }
 
-    nav li{
+    nav li {
         display: inline;
         padding: 18px;
     }
 
-   nav a{
-    display: inline;
-    border: none;
-    background-color: transparent;
-    color: #fff;
-   }
+    nav a {
+        display: inline;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+    }
 
-   nav a:hover{
-    background-color: transparent;
-    text-decoration: underline;
-   }
+    nav a:hover {
+        background-color: transparent;
+        text-decoration: underline;
+    }
 }
 
 @media screen and (min-width: 992px) {
-        /* Grandes Telas */
+    /* Grandes Telas */
 
-        header h1{
-            padding: 0;
-        }
+    header h1 {
+        padding: 0;
+    }
 
-        header{
-            background-image: url(../imagens/topo.jpg);
-            width: 100%;
-            height: 610px;
-            background-repeat: no-repeat;
-            background-size: cover  ;
-            background-position: center right;
-            background-attachment: fixed;
-        }
+    header {
+        background-image: url(../imagens/topo.jpg);
+        width: 100%;
+        height: 610px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center right;
+        background-attachment: fixed;
+    }
 
-        div.header-menu{
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-around;
-            background-color: #162028;
-        }
+    div.header-menu {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        background-color: #162028;
+    }
 
-        nav{
-            display: flex;
-            align-self: center ;
-        }
+    nav {
+        display: flex;
+        align-self: center;
+    }
 
-        span#burguer{
-            display: none;
-        }
-        
-        nav li{
-            display: inline;
-            padding: 15px;
-        }
+    span#burguer {
+        display: none;
+    }
 
-        nav a{
-            display: inline;
-            border: none;
-            color: #6c7a87;
-        }
+    nav li {
+        display: inline;
+        padding: 15px;
+    }
 
-        nav a:hover{
-            background-color: transparent;
-            color: white;
-            transition-duration: .3s;
-        }
-        
-       article{
-            width: 80%;
-            margin: auto;
-        }
+    nav a {
+        display: inline;
+        border: none;
+        color: #6c7a87;
+    }
+
+    nav a:hover {
+        background-color: transparent;
+        color: white;
+        transition-duration: .3s;
+    }
+
+    article {
+        width: 80%;
+        margin: auto;
+    }
 
 
-        .artigo-1 h2{
-            font-size: 40px;
-        }
+    .artigo-1 h2 {
+        font-size: 40px;
+    }
 
-        .artigo-1 p{
-            font-size: 18px;
-            line-height: 1.9;   
-        }
+    .artigo-1 p {
+        font-size: 18px;
+        line-height: 1.9;
+    }
 
-        div.card-container{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
+    div.card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
-        .artigo-3{
-            
-            width: 90%;
-            height: 400px;
-        }
+    .artigo-3 {
+        padding: 70px;
+        background-image: url(../imagens/bg_detalhe.png);
+        background-position: center bottom ;
+        background-attachment: fixed;
+    }
+
+    .artigo-3 h2{
+        font-size: 2.1em;
+        text-align: center;
+        text-shadow: 3px 2px 6px rgba(0, 0, 0, 0.413);
+    }
+
+    .artigo-3 p {
+        font-size: 1.2em;
+        color: #dddddd;
+    }
+
+
 }

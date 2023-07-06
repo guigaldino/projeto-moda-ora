@@ -127,7 +127,7 @@ article {
     width: 100%;
     overflow-x: hidden;
     background-color: #013142;
-    background-image: url(../imagens/bg_detalhe.png);
+    background: linear-gradient(to right, #013142, #024c67), url(../imagens/bg_detalhe.png);
     background-size: cover;
     background-position: right bottom;
     box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.445);
